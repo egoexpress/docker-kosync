@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/koreader/koreader-sync-server:v2.1
+    image: ghcr.io/koreader/kosync:sha-46ef6b8
     restart: unless-stopped
     environment:
       - VIRTUAL_HOST=${VIRTUAL_HOST}
